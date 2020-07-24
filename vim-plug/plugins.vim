@@ -25,8 +25,9 @@ call plug#begin("~/.config/nvim/autoload/plugged")
   "Plug 'davidhalter/jedi-vim'
   Plug 'tpope/vim-commentary'
   Plug 'voldikss/vim-floaterm'
+  Plug 'mhinz/vim-startify'
   Plug 'liuchengxu/vim-which-key'
-  "Plug 'terryma/vim-multiple-cursors'
+  " Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 
