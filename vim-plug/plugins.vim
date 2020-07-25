@@ -28,6 +28,9 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'mhinz/vim-startify'
     Plug 'liuchengxu/vim-which-key'
     " Plug 'terryma/vim-multiple-cursors'
+    Plug 'justinmk/vim-sneak'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
     "Git integration
     Plug 'mhinz/vim-signify'
