@@ -16,8 +16,12 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     "Plug 'ryanoasis/vim-devicons'
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
+    
+    " For autocompletion and stuff
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-angular', 'coc-flutter', 'coc-go', 'coc-sh', 'coc-sql', 'coc-xml', 'coc-tailwindcss']
+    let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-angular', 'coc-flutter', 'coc-go', 'coc-sh', 'coc-sql', 'coc-xml', 'coc-tailwindcss', 'coc-java']
+    
+    Plug 'ap/vim-css-color'
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
     Plug 'OmniSharp/omnisharp-vim'
