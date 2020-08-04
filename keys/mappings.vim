@@ -30,8 +30,8 @@ inoremap <c-right> <esc>ve
 
 "Deal with automatic pair insertion when typing some characters
 "inoremap {<CR> {<CR>}<C-o>O
-inoremap { {<Cr>}<Esc>O
-"inoremap { {}<Esc>ha
+" inoremap { {<Cr>}<Esc>O
+inoremap { {}<Esc>ha
 inoremap ( ()<Esc>ha
 inoremap [ []<Esc>ha
 inoremap " ""<Esc>ha

@@ -42,6 +42,10 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
 
+    Plug 'othree/xml.vim'
+    Plug 'tpope/vim-surround'
+    Plug 'AndrewRadev/tagalong.vim'
+
 call plug#end()
 
 
