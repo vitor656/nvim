@@ -46,6 +46,10 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'tpope/vim-surround'
     Plug 'AndrewRadev/tagalong.vim'
 
+    Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+    let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+
 call plug#end()
 
 
