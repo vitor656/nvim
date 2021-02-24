@@ -10,8 +10,8 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
     \ { 'i': '~/.config/nvim/init.vim' },
     \ { 'b': '~/.bashrc' },
-    "\ '~/Blog',
-    "\ '~/Code',
+    \ '~/Workspace/JavascriptProjects/nlw2/aulas/server',
+    \ '~/Workspace/JavascriptProjects/nlw2/aulas/web',
     "\ '~/Pics',
 \ ]
 

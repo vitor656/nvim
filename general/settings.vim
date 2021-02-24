@@ -45,6 +45,8 @@ set tabstop=4
 set softtabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
+set scrolloff=7
+
     
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
