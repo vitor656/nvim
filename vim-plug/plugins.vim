@@ -20,6 +20,11 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'sainnhe/sonokai'
     Plug 'AlessandroYorba/Sierra'
     Plug 'wadackel/vim-dogrun'
+    Plug 'artanikin/vim-synthwave84'
+    Plug 'morhetz/gruvbox'
+    Plug 'junegunn/seoul256.vim'
+    Plug 'vim-python/python-syntax'
+    Plug 'NLKNguyen/papercolor-theme'
     "Plug 'ryanoasis/vim-devicons'
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'

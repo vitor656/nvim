@@ -1,11 +1,11 @@
 syntax on
 
 
-colorscheme dracula
-let g:airline_theme = 'dracula'
+" colorscheme dracula
+" let g:airline_theme = 'dracula'
 
-" colorscheme onedark
-" let g:airline_theme = 'onedark'
+colorscheme onedark
+let g:airline_theme = 'onedark'
 
 " colorscheme oceanic_material
 " let g:airline_theme = 'oceanic_material'
@@ -27,6 +27,20 @@ let g:airline_theme = 'dracula'
 
 " colorscheme dogrun
 " let g:airline_theme = 'dogrun'
+
+" colorscheme synthwave84
+" let g:airline_theme = 'synthwave84'
+
+" Settig gruvbox up
+" autocmd vimenter * ++nested colorscheme gruvbox
+
+" colorscheme seoul256
+" let g:airline_theme = 'seoul256'
+
+" colorscheme PaperColor
+" let g:airline_theme = 'PaperColor'
+" let g:lightline = { 'colorscheme': 'PaperColor' }
+
 
 
 
