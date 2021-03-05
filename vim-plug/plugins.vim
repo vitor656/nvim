@@ -18,6 +18,12 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'morhetz/gruvbox'
     Plug 'junegunn/seoul256.vim'
     Plug 'vim-python/python-syntax'
+
+    " Ranger in Floating window
+    Plug 'kevinhwang91/rnvimr'
+
+    " Python Formatting
+    Plug 'psf/black', { 'branch': 'stable' }
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'cocopon/iceberg.vim'
     "Plug 'ryanoasis/vim-devicons'

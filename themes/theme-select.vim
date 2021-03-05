@@ -13,28 +13,10 @@ let g:airline_theme = 'iceberg'
 " colorscheme oceanic_material
 " let g:airline_theme = 'oceanic_material'
 
-" colorscheme anderson
-" let g:airline_theme = 'anderson'
-
-" colorscheme spacecamp
-" let g:airline_theme = 'spacecamp'
-
-" colorscheme ayu
-" let g:airline_theme = 'ayu'
-
-" colorscheme sonokai
-" let g:airline_theme = 'sonokai'
-
 " colorscheme sierra
 " let g:airline_theme = 'sierra'
 
-" colorscheme dogrun
-" let g:airline_theme = 'dogrun'
-
-" colorscheme synthwave84
-" let g:airline_theme = 'synthwave84'
-
-" Settig gruvbox up
+" Setting gruvbox up
 " autocmd vimenter * ++nested colorscheme gruvbox
 
 " colorscheme seoul256
@@ -43,7 +25,6 @@ let g:airline_theme = 'iceberg'
 " colorscheme PaperColor
 " let g:airline_theme = 'PaperColor'
 " let g:lightline = { 'colorscheme': 'PaperColor' }
-
 
 
 
