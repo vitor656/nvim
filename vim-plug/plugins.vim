@@ -18,7 +18,11 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'morhetz/gruvbox'
     Plug 'junegunn/seoul256.vim'
     Plug 'vim-python/python-syntax'
+    Plug 'glench/vim-jinja2-syntax'
 
+    Plug 'ekalinin/Dockerfile.vim'
+    Plug 'matze/vim-move'
+    
     " Ranger in Floating window
     Plug 'kevinhwang91/rnvimr'
 
