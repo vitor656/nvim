@@ -14,17 +14,12 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'joshdick/onedark.vim'
     Plug 'scrooloose/nerdtree'
     Plug 'glepnir/oceanic-material'
-    Plug 'gilgigilgil/anderson.vim'
-    Plug 'jaredgorski/spacecamp'
-    Plug 'ayu-theme/ayu-vim'
-    Plug 'sainnhe/sonokai'
     Plug 'AlessandroYorba/Sierra'
-    Plug 'wadackel/vim-dogrun'
-    Plug 'artanikin/vim-synthwave84'
     Plug 'morhetz/gruvbox'
     Plug 'junegunn/seoul256.vim'
     Plug 'vim-python/python-syntax'
     Plug 'NLKNguyen/papercolor-theme'
+    Plug 'cocopon/iceberg.vim'
     "Plug 'ryanoasis/vim-devicons'
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
@@ -68,4 +63,3 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
 
 call plug#end()
-

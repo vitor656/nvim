@@ -4,8 +4,11 @@ syntax on
 " colorscheme dracula
 " let g:airline_theme = 'dracula'
 
-colorscheme onedark
-let g:airline_theme = 'onedark'
+" colorscheme onedark
+" let g:airline_theme = 'onedark'
+
+colorscheme iceberg
+let g:airline_theme = 'iceberg'
 
 " colorscheme oceanic_material
 " let g:airline_theme = 'oceanic_material'
