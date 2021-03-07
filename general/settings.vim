@@ -45,7 +45,7 @@ set tabstop=4
 set softtabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
-set scrolloff=7
+set scrolloff=10
 
     
 

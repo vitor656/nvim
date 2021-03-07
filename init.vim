@@ -7,10 +7,12 @@ source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/omnisharp.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/signify.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
 source $HOME/.config/nvim/plug-config/ultisnips.vim
 source $HOME/.config/nvim/plug-config/black.vim
 source $HOME/.config/nvim/plug-config/vim-move.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/airline.vim
@@ -19,4 +21,3 @@ source $HOME/.config/nvim/themes/gruvbox.vim
 source $HOME/.config/nvim/themes/sierra.vim
 source $HOME/.config/nvim/themes/papercolor.vim
 source $HOME/.config/nvim/themes/theme-select.vim
-source $HOME/.config/nvim/plug-config/coc.vim

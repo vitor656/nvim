@@ -23,6 +23,9 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'ekalinin/Dockerfile.vim'
     Plug 'matze/vim-move'
     
+    " Zen mode
+    Plug 'junegunn/goyo.vim'
+
     " Ranger in Floating window
     Plug 'kevinhwang91/rnvimr'
 
