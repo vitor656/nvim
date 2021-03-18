@@ -1,13 +1,20 @@
 " auto-install vim-plug
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
-  "autocmd VimEnter * PlugInstall | source $MYVIMRC
+if empty(glob(g:nvim_path . '/nvim/autoload/plug.vim'))
+    if has('unix')
+      silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+      "autocmd VimEnter * PlugInstall
+      "autocmd VimEnter * PlugInstall | source $MYVIMRC
+    elseif has('win32')
+      silent !curl -fLo ~/AppData/Local/nvim/autoload/plug.vim --create-dirs
+        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+      "autocmd VimEnter * PlugInstall
+      "autocmd VimEnter * PlugInstall | source $MYVIMRC
+    end
 endif
 
 
-call plug#begin("~/.config/nvim/autoload/plugged")
+call plug#begin(g:nvim_path . "/nvim/autoload/plugged")
   " Plugin Section
 
     Plug 'dracula/vim'
@@ -31,9 +38,17 @@ call plug#begin("~/.config/nvim/autoload/plugged")
 
     " Python Formatting
     Plug 'psf/black', { 'branch': 'stable' }
+
     Plug 'NLKNguyen/papercolor-theme'
     Plug 'cocopon/iceberg.vim'
-    "Plug 'ryanoasis/vim-devicons'
+    Plug 'drewtempelmeyer/palenight.vim'
+    Plug 'kyoz/purify', { 'rtp': 'vim' }
+    Plug 'srcery-colors/srcery-vim'
+    Plug 'sainnhe/forest-night'
+    Plug 'alessandroyorba/alduin'
+
+    Plug 'ryanoasis/vim-devicons'
+    
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
     
@@ -44,6 +59,12 @@ call plug#begin("~/.config/nvim/autoload/plugged")
     Plug 'ap/vim-css-color'
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
+
+    Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
+
+
     Plug 'OmniSharp/omnisharp-vim'
     Plug 'w0rp/ale'
     Plug 'jdonaldson/vaxe' 

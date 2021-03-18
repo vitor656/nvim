@@ -1,4 +1,4 @@
-let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_session_dir = g:nvim_path . '/nvim/session'
 
 let g:startify_lists = [
           \ { 'type': 'files',     'header': ['   Files']            },
@@ -8,11 +8,8 @@ let g:startify_lists = [
           \ ]
 
 let g:startify_bookmarks = [
-    \ { 'i': '~/.config/nvim/init.vim' },
+    \ { 'i': g:nvim_path . '/nvim/init.vim' },
     \ { 'b': '~/.bashrc' },
-    \ '~/Workspace/JavascriptProjects/nlw2/aulas/server',
-    \ '~/Workspace/JavascriptProjects/nlw2/aulas/web',
-    "\ '~/Pics',
 \ ]
 
 let g:startify_session_autoload = 1

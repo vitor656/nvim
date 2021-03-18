@@ -15,3 +15,6 @@ File /vim-plug/plugins.vim to add or remove plugins.
 Added a file called dependencies.sh in order to install other external stuff needed. Looks
 like Neovim got some kind of bug to copy texts to system clipboard. In order to fix that, we
 have to install xclip from apt-get.
+
+For Icons to appear on it is needed to install fonts on the system.
+Just follou the instruction [here](https://github.com/ryanoasis/nerd-fonts#font-installation)
