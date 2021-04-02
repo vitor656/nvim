@@ -64,6 +64,9 @@ call plug#begin(g:nvim_path . "/nvim/autoload/plugged")
     Plug 'pangloss/vim-javascript'
     Plug 'mxw/vim-jsx'
 
+    Plug 'tpope/vim-dadbod'
+    Plug 'kristijanhusak/vim-dadbod-ui'
+
 
     Plug 'OmniSharp/omnisharp-vim'
     Plug 'w0rp/ale'
