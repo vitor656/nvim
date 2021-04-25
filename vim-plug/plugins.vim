@@ -54,7 +54,7 @@ call plug#begin(g:nvim_path . "/nvim/autoload/plugged")
     
     " For autocompletion and stuff
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-angular', 'coc-flutter', 'coc-go', 'coc-sh', 'coc-sql', 'coc-xml', 'coc-tailwindcss', 'coc-java', 'coc-phpls']
+    let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-python', 'coc-snippets', 'coc-vimlsp', 'coc-angular', 'coc-flutter', 'coc-go', 'coc-sh', 'coc-sql', 'coc-xml', 'coc-tailwindcss', 'coc-java', 'coc-phpls', 'coc-haxe']
     
     Plug 'ap/vim-css-color'
     Plug 'leafgarland/typescript-vim'

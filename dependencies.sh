@@ -1,3 +1,3 @@
-sudo apt install xclip fonts-firacode ranger python3
+sudo apt install xclip ranger python3
 
 pip3 install jedi black greenlet pylint neovim
